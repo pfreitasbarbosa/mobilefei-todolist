@@ -7,6 +7,7 @@ export const TodoView = styled(Animatable.View)`
   background: #333;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 `;
 
 export const TodoText = styled.Text`

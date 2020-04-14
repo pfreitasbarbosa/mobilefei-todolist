@@ -41,8 +41,8 @@ export default function TodoList() {
         showsVerticalScrollIndicator={false}
         data={todoList}
         keyExtractor={(todo) => todo}
-        renderItem={({ item: todo }) => (
-          <TodoItem todo={todo} remove={removeTodo} />
+        renderItem={({ item: todo, index }) => (
+          <TodoItem todo={todo} remove={removeTodo} index={index} />
         )}
       />
     </Container>

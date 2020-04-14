@@ -10,7 +10,7 @@
 O objetivo desse projeto é exercitar o uso do React Native ao construir uma aplicação envolvendo os principais conceitos da tecnologia. Esse projeto foi submetido como uma tarefa de laborário na disciplina Computação Móvel.
 
 ## :memo: Sobre a aplicação
-Essa é uma aplicação puramente front-end, ela faz uma listagem de atividades cadastradas pelo usuário. Essas atividades são registradas através de uma caixa de texto e podem ser removidas utilizando um botão ao lado da atividade listada. Utilizei a aplicação para aprender mais sobre animações em React Native, utilizei a biblioteca [`react-native-animatable`](https://github.com/oblador/react-native-animatable) para adicionar uma animação ao adicionar e ao excluir uma atividade.
+Essa é uma aplicação puramente front-end, ela faz uma listagem de atividades cadastradas pelo usuário. Essas atividades são registradas através de uma caixa de texto e podem ser removidas utilizando um botão ao lado da atividade listada. Utilizei a aplicação para aprender mais sobre animações em React Native, utilizei a biblioteca [`react-native-animatable`](https://github.com/oblador/react-native-animatable) para adicionar uma animação ao adicionar e ao excluir uma atividade, e utilizei a LayoutAnimation API para colocar uma animação na remoção de um item da listagem, para melhorar a experiência do usuário deixando o ajuste pós exclusão mais suave.
 
 <p align="center">
   <img src="./.github/todo.gif" />
@@ -20,6 +20,7 @@ Essa é uma aplicação puramente front-end, ela faz uma listagem de atividades 
 - React Native
 - React Hooks
 - [`react-native-animatable`](https://github.com/oblador/react-native-animatable)
+- [LayoutAnimation API](https://reactnative.dev/docs/layoutanimation)
 
 ## :wrench: Como testar a aplicação no seu computador
 Primeiramente você deve clonar esse repositório em sua máquina, que nada mais é que baixar os arquivos aqui dispostos. Para isso, você pode baixar os arquivos clicando no botão verde escrito <em>Clone or download</em> e baixar o projeto como um arquivo ZIP (descompacte os arquivos em algum local do seu computador), ou pode clonar utilizando um terminal com git.
